@@ -8,23 +8,13 @@
   }
   
   body {
-    margin: 0;
+    margin: 8px;
     font-family: Arial, sans-serif;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    margin: 8px;
+    font-family: "Neco";
 }
 
 footer {
@@ -44,7 +34,7 @@ footer {
 
 .logo {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .logo img {
@@ -69,19 +59,18 @@ footer {
     gap: 10px;
     justify-content: center;
     order: 2;
-    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .footer-text {
-    margin-top: 0;
+    margin-top: 10px;
     font-size: 14px;
     order: 1;
-    text-align: right;
     margin-right: 10px;
 }
 
-.footer-container {
-    justify-content: space-between;
+.footer-container .footer-text {
+    margin-right: auto;
 }
 
 .link {

@@ -60,8 +60,7 @@ body {
 }
 
 .accueil_texte{
-    margin-top: 10px
-    ;
+    margin-bottom: 0px;
 }
 
 .carre_jaune {
@@ -191,7 +190,7 @@ button {
     border: none;
     height: auto;
     width: auto;
-    justify-self: center;
+    text-align: center;
     margin-top: 3rem;
     margin-bottom: 0;
     margin-left: 0;
