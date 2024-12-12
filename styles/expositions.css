@@ -122,3 +122,80 @@ nav a:hover::after {
     z-index: 1;
     /* Derrière l'image */
 }
+
+.container {
+    position: relative;
+    /* Conteneur parent configuré pour la position absolue */
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.shapes {
+    position: relative;
+    margin-right: 250px;
+    margin-left: 100px;
+}
+
+.carre_jaune {
+    width: 90%;
+    height: 90%;
+    background-color: #FAE679;
+    position: absolute;
+    top: 5%;
+    /* Position verticale dans le conteneur */
+    left: 5%;
+    /* Position horizontale dans le conteneur */
+    z-index: 1;
+    /* Derrière l'image */
+}
+
+.carre_jaune2 {
+    width: 100%;
+    height: 80%;
+    background-color: #FAE679;
+    position: absolute;
+    top: 5%;
+    /* Position verticale dans le conteneur */
+    left: 5%;
+    /* Position horizontale dans le conteneur */
+    z-index: 1;
+    /* Derrière l'image */
+}
+
+.description {
+    width: auto;
+    font-size: 20px;
+    max-width: 1050px;
+    margin-right: 150px;
+}
+
+.overlay-image {
+    width: 400px;
+    top: 70px;
+    /* Ajuste pour superposer le carré */
+    left: 70px;
+    /* Ajuste pour superposer le carré */
+    z-index: 2;
+    /* Devant le carré */
+    position: relative;
+}
+
+.marge{
+    margin-top: 60px;
+}
+
+.description2 {
+    width: auto;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.shapes2 {
+    position: relative;
+    margin-right: 170px;
+}
