@@ -1,0 +1,99 @@
+
+.burger{
+    left: 100%; 
+  }
+  
+  .banniere{
+    width: 100%;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #d3d3d3;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    order: 2;
+    margin-top: 5px;
+}
+
+.footer-text {
+    margin-top: 0;
+    font-size: 14px;
+    order: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.footer-container {
+    justify-content: space-between;
+}
+
+.link {
+    color: black;
+    text-decoration: underline;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
