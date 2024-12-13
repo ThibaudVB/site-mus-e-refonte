@@ -1,6 +1,12 @@
+html {
+    /* overflow: hidden; */
+}
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: "Neco";
+
+    overflow-x: hidden;
 }
 
 /*C'est l'image bannière, celle en dessous du header à l'accueil */
@@ -64,13 +70,14 @@ body {
 }
 
 .carre_jaune {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 0;
+    padding-bottom: 62%;
     background-color: #FAE679;
     position: absolute;
-    top: 5%;
+    top: 0;
     /* Position verticale dans le conteneur */
-    left: 5%;
+    left: 0;
     /* Position horizontale dans le conteneur */
     z-index: 1;
     /* Derrière l'image */
@@ -82,11 +89,7 @@ body {
 }
 
 .overlay-image {
-    width: 400px;
-    top: 70px;
-    /* Ajuste pour superposer le carré */
-    left: 70px;
-    /* Ajuste pour superposer le carré */
+    width: 90%;
     z-index: 2;
     /* Devant le carré */
     position: relative;
@@ -94,8 +97,8 @@ body {
 
 .shapes {
     position: relative;
-    margin-right: 250px;
-    margin-left: 100px;
+    /* margin-right: 250px; */
+    /* margin-left: 100px; */
 }
 
 .shapes2 {
@@ -111,6 +114,13 @@ body {
     align-items: center;
     display: flex;
     margin-bottom: 80px;
+    gap: 80px;
+}
+
+@media (max-width: 960px) {
+    .flex {
+        flex-direction: column;
+    }
 }
 
 
