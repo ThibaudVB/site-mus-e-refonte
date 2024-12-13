@@ -145,15 +145,27 @@ nav a:hover::after {
     margin-bottom: 80px;
 }
 
+.containerflex{
+    display: flex;
+    width: 100%;
+}
+
 .shapes {
     position: relative;
     margin-right: 250px;
     margin-left: 100px;
 }
 
+.shapes2 {
+    position: relative;
+    margin-right: 170px;
+    margin-top: 10rem;
+}
+
 .carre_jaune {
     width: 90%;
     height: 90%;
+    max-height: 18rem;
     background-color: #FAE679;
     position: absolute;
     top: 5%;
@@ -184,6 +196,14 @@ nav a:hover::after {
     margin-right: 150px;
 }
 
+.description2 {
+    width: auto;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 10rem;
+}
+
 .overlay-image {
     width: 400px;
     top: 70px;
@@ -197,18 +217,6 @@ nav a:hover::after {
 
 .marge{
     margin-top: 60px;
-}
-
-.description2 {
-    width: auto;
-    font-size: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-.shapes2 {
-    position: relative;
-    margin-right: 170px;
 }
 
 @media (max-width: 1069px){
