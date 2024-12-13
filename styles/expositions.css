@@ -107,7 +107,7 @@ nav a:hover::after {
 }
 
 /*C'est pour le carré noir en haut de la page d'exposition*/
-.zebi {
+.giga {
     position: absolute;
     top: -200px;
     left: 100px;
@@ -217,7 +217,7 @@ nav a:hover::after {
 .description2 {
     width: auto;
     font-size: 20px;
-    flex-basis: 8²0%;
+    flex-basis: 80%;
     /* margin-lft: 120px;
     margin-right: 120px;
     margin-top: 10rem; */
