@@ -28,7 +28,7 @@ body {
 }
 
 /*C'est pour le carré noir en haut de la page d'accueil, et aussi pour l'écriture*/
-.zebi {
+.boite {
     position: absolute;
     top: -200px;
     left: 100px;
