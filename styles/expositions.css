@@ -129,6 +129,8 @@ nav a:hover::after {
 
 .expotext p1, p2, p3, p4{
     margin-top: 1.8rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .container {
@@ -206,4 +208,10 @@ nav a:hover::after {
 .shapes2 {
     position: relative;
     margin-right: 170px;
+}
+
+@media (max-witdh: 1069px;) {
+    .expotext{
+        max-width: 1rem;
+    }
 }
