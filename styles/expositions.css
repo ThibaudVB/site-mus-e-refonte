@@ -125,6 +125,7 @@ nav a:hover::after {
 .expotext{
     display: flex;
     flex-direction: column;
+    font-size: 1.6rem;
 }
 
 .expotext p1, p2, p3, p4{
@@ -210,8 +211,26 @@ nav a:hover::after {
     margin-right: 170px;
 }
 
-@media (max-witdh: 1069px;) {
+@media (max-width: 1069px){
     .expotext{
-        max-width: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 390px){
+    .expotext{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 1069px){
+    a .Titre{
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 390px){
+    a .Titre{
+        font-size: 0.9rem;
     }
 }
