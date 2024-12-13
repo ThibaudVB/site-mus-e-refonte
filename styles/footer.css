@@ -86,3 +86,7 @@ footer {
     width: 30px;
     height: auto;
 }
+
+@media (max-width: 1069px) {
+    
+}
