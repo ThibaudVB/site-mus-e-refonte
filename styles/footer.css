@@ -5,6 +5,7 @@
   
   .banniere{
     width: 100%;
+    position: relative;
   }
   
   body {

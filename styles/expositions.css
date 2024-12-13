@@ -10,12 +10,8 @@ body {
 
 @media screen and (max-width: 960px) {
     .intro-section {
-        margin-bottom: 20rem;
+        margin-bottom: 2rem;
     }
-}
-
-.intro-section {
-    margin-bottom: 120px;
 }
 
 /* Menu déroulant */
@@ -109,13 +105,9 @@ nav a:hover::after {
 /*C'est pour le carré noir en haut de la page d'exposition*/
 .giga {
     position: absolute;
-    top: -200px;
-    left: 100px;
-    display: flex;
-    align-items: flex-end;
+    left: 1rem;
     justify-content: right;
-    margin-right: 70px;
-    margin-top: 0px;
+    top: -8rem;
     font-size: 30px;
 }
 
