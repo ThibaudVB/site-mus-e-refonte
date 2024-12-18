@@ -13,30 +13,17 @@
 
 <body>
     <header>
-        <a href="index.html"><img class="image_taille" src="/images/Page_accueil/logo_musée_vectorisé.png"
-                alt="logo"></a>
+        <a href="index.html"><img class="image_taille" src="/images/Page_accueil/logo_musée_vectorisé.png" alt="logo"></a>
         <nav>
-            <ul>
+            <div class="burger-menu" onclick="toggleMenu()">&#9776;</div> <!-- Menu Burger -->
+            <div class="overlay" onclick="toggleMenu()"></div> <!-- Arrière-plan de l'overlay -->
+            <ul id="menu">
                 <li><a href="index.html">Accueil</a></li>
-                <li class="dropdown">
-                    <a href="expositions.html">Expositions</a>
-                    <!--<ul class="dropdown-menu">
-                        <li><a href="#expo1">Expo 1</a></li>
-                        <li><a href="#expo2">Expo 2</a></li>
-                        <li><a href="#expo3">Expo 3</a></li>
-                    </ul>-->
-                </li>
+                <li><a href="expositions.html">Expositions</a></li>
                 <li><a href="#Collection">Collection</a></li>
-                <ul class="dropdown-menu">
-                    <li><a href="#collec1">Collection 1</a></li>
-                    <li><a href="#collec2">Collection 2</a></li>
-                    <li><a href="#collec3">Collection 3</a></li>
-                </ul>
                 <li><a href="#Boutique">Boutique</a></li>
                 <li><a href="#Offre">Offre</a></li>
                 <li><a href="#contact">Contact</a></li>
-
-
             </ul>
         </nav>
     </header>
@@ -232,7 +219,7 @@
           <p>&copy; 2024 Musée d'Aquitaine. Tous droits réservés.</p>
         </div>
       </footer>
-
+      <script src="script.js"></script>
 </body>
 
 </html>

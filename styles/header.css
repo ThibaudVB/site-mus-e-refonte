@@ -1,19 +1,21 @@
-/* C'est le truc en haut qui permet d'avoir l'image et le menu cote à cote */
-header{
+/* Styles généraux (bureau et autres résolutions larges) */
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-/* Menu déroulant */
 
-nav{
-    height: 70px;
-    width: auto;
-    margin-top: 1rem;
-    overflow-x: auto;
-    overflow-y: hidden;
+/* Burger menu, caché par défaut sur desktop */
+.burger-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
 }
 
+
+/* Menu normal sur bureau (mode desktop) */
 nav ul {
     list-style: none;
     display: flex;
@@ -22,9 +24,11 @@ nav ul {
     position: relative;
 }
 
+
 nav li {
     position: relative;
 }
+
 
 nav a {
     text-decoration: none;
@@ -34,6 +38,7 @@ nav a {
     position: relative;
     padding: 5px 10px;
 }
+
 
 /* Animation hover */
 nav a::after {
@@ -48,52 +53,96 @@ nav a::after {
     transform: translateX(-50%);
 }
 
+
 nav a:hover::after {
     width: 100%;
     left: 0;
     transform: translateX(0);
 }
 
-/* Dropdown menu */
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
+
+/* Menu expansion (mobile only) */
+#menu.expanded {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
     left: 0;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    list-style: none;
-    padding: 10px 0;
-    margin: 0;
+    width: 100%;
+    height: 100vh; /* Prend toute la hauteur de l'écran */
+    background-color: white; /* Arrière-plan du menu */
     z-index: 10;
 }
 
-.dropdown-menu li {
-    padding: 5px 20px;
+
+/* Style des éléments du menu dans le mode "expanded" */
+#menu.expanded li {
+    font-size: 3rem; /* Agrandir la taille de la police */
+    height: 20%; /* Chaque élément prend 20% de la hauteur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* S'assurer que les éléments prennent toute la largeur */
+    text-align: center;
 }
 
-.dropdown-menu li a {
-    font-size: 1rem;
+
+#menu.expanded a {
+    display: block;
+    padding: 20px; /* Un peu d'espace autour du texte */
     color: #333;
-    padding: 5px 10px;
+    font-weight: bold;
     text-decoration: none;
-    display: block;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
-
-.dropdown-menu li a:hover {
-    background-color: #4a90e2;
-    color: #ffffff;
-}
-
-/* Affichage du menu au survol 
-.dropdown:hover .dropdown-menu {
-    display: block;
-}*/
-
-/*LOGO */
-.image_taille{
+.image_taille {
     max-width: 80px;
     max-height: 500px;
     margin: 10px;
-}    
+}
+
+.image_taille {
+    max-width: 80px;
+    max-height: 500px;
+    margin: 10px;
+}
+
+
+/* Arrière-plan (overlay) */
+.overlay {
+    display: none; /* Masqué par défaut */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Fond semi-transparent */
+    z-index: 5;
+}
+/* Affichage du burger uniquement sur mobile (par défaut caché sur desktop) */
+@media (max-width: 768px) {
+    .burger-menu {
+        display: block;
+    }
+
+
+    /* Affichage du menu burger */
+    nav ul {
+        display: none; /* Cache le menu par défaut */
+    }
+
+
+    .overlay {
+        display: block; /* Affiche l'overlay */
+    }
+}
+
+
+
+
+.image_taille {
+    max-width: 80px;
+    max-height: 500px;
+    margin: 10px;
+}
