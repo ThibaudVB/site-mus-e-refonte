@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Neco';
+    src: url('/fonts/Neco_Complete/Fonts/OTF/Neco-Black.otf') format('opentype');
+}
+
+
 /* Styles généraux (bureau et autres résolutions larges) */
 header {
     display: flex;
