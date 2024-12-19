@@ -4,8 +4,11 @@
     src: url('/fonts/Neco_Complete/Fonts/OTF/Neco-Black.otf') format('opentype');
 }
 
-
+* {
+    font-family: 'Neco', Arial, sans-serif; /* Remplacement général */
 }
+
+
 /* Section d'introduction */
 .intro-section {
     margin-bottom: 5vh; /* Utiliser une unité relative à la hauteur de la fenêtre */
@@ -101,11 +104,15 @@ nav a:hover::after {
 
 /* Carré noir en haut de la page d'exposition */
 .giga {
-    position: absolute;
-    left: 1rem;
-    top: -10vh; /* Ajustement basé sur la hauteur de l'écran */
-    font-size: 30px;
+    font-size: 120px; /* Grande taille par défaut */
+    font-weight: bold;
+    position: absolute; /* Positionnement absolu */
+    top: -180px; /* Ajuster pour définir l'emplacement initial */
+    left: 5%; /* Centré horizontalement */
+    color: #333;
+    text-align: center; /* Centrer le texte horizontalement */
 }
+
 
 .marge {
     margin-top: 60px;
@@ -220,3 +227,20 @@ html, body {
         aspect-ratio: 16 / 9;
     }
 }
+
+/* Pour les écrans de moins de 768px (mobile) */
+@media (max-width: 768px) {
+    .giga {
+        display: none; /* Cacher l'élément en mode mobile */
+    }
+}
+
+/* Pour les écrans entre 768px et 1024px (tablettes) */
+@media (max-width: 1024px) {
+    .giga {
+        font-size: 10vw; /* Ajuster la taille du texte en fonction de la largeur de l'écran */
+        top: -180px; /* Ajuster la position verticale pour les tablettes */
+    }
+}
+
+

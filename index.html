@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="Neco" href="/fonts/Neco_Complete/Fonts/OTF/Neco-Black.otf">
+    <title>Exposition à la Une</title>
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/header.css">
 </head>
-
 <body>
     <header>
         <a href="index.html"><img class="image_taille" src="/images/Page_accueil/logo_musée_vectorisé.png" alt="logo"></a>
@@ -27,207 +24,139 @@
             </ul>
         </nav>
     </header>
-
-
     <main>
-        <img class="banniere-exposition" src="/images/Page_accueil/musée_aquitaine.bis3.png" alt="musée d'aquitaine">
-        <!-- Sections principales -->
-        <section class="accueil">
-            <div class="boite">
-                <img class="carré" src="/images/Page_accueil/musee_aquitaine_carre.svg" alt="">
-                <p class="accueil_texte">
-                    Découvrez l’histoire et les cultures de <br>
-                    notre région et d’ailleurs à travers des <br>
-                    collections uniques. <br>
-                    Bonne visite.
-                </p>
-            </div>
-        </section>
+        <div class="intro-section">
+            <img class="banniere" src="/images/Expositions/bannière-musee.jpg" alt="banniere expo">
+        </div>
+        <div> <img class="logo-carre" src="/images/Page_accueil/musee_aquitaine_carre.svg" alt="logo musee"></div>
+    </main>
+    <div class="container">
+        <!-- Titre principal -->
+        <div class="main-title">Exposition à la Une</div>
 
-        <section id="exposition">
-            <a class="Titre_expo" href="expositions.html">
-                <h1>EXPOSITION</h1>
-            </a>
-            <div class="expo">
-                <div class="bloc">
-                    <img src="/images/Page_accueil/expo_photo.png" alt="photographie expo" class="image_expo_taille">
-                    <a href="#">
-                        <h2>Photographie : 28 Aout 1944 : Libres !</h2>
-                    </a>
-                    <p class="description3">Depuis le 28 août, place Jean-Moulin et rue Vital-Carles,
-                        les façades du Centre national Jean Moulin s’ornent de rares photographies
-                        de la Libération de Bordeaux, guys.</p>
+        <!-- Box principale avec carrousel -->
+        <div class="box">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="/images/Accueil/Ala1expo1.jpg" alt="Image 1">
+                    <img src="/images/Accueil/Ala1expo2.jpg" alt="Image 2">
+                    <img src="/images/Accueil/Ala1expo3.jpg" alt="Image 3">
                 </div>
-                <div class="bloc">
-                    <img src="/images/Page_accueil/expo_destiné_juives.png" alt="destinée juives expo" class="image_expo_taille">
-                    <a href="#">
-                        <h2>En ligne : Destinées Juives à Bordeaux</h2>
-                    </a>
-                    <p class="description3">Cette exposition 100% en ligne témoigne du drame humain vécu
-                        par les populations de confession juive installées à Bordeaux
-                        durant la Seconde Guerre mondiale.</p>
-                </div>
-                <div class="bloc">
-                    <img src="/images/Page_accueil/expo_400000.png" alt="400000 expo" class="image_expo_taille">
-                    <a href="#">
-                        <h2>Parcours de 400 000 ans d’histoire(s)</h2>
-                    </a>
-                    <p class="description3">Grâce à la richesse et à la variété de ses collections, le musée
-                        d'Aquitaine invite le visiteur à partir à la découverte de l'histoire
-                        régionale, de la préhistoire à l'époque contemporaine.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="collection">
-            <a href="collection.html" class="Titre">
-                <h1>COLLECTION</h1>
-            </a>
-            <div class="container flex">
-                <div class="shapes">
-                    <div class="carre_jaune"></div>
-                    <img src="/images/Page_accueil/tresor_gaulois.png" alt="trésor gaulois du tayac"
-                        class="overlay-image ">
-                </div>
-                <div>
-                    <a href="#">
-                        <h2>Le Trésor gaulois du Tayac</h2>
-                    </a>
-                    <p class="description">En décembre 1893, un laboureur découvrit deux vases en terre cuite
-                        contenant un trésor en or : un torque de 762 g, 73 petits lingots
-                        de 7,30 g chacun, un fil d'or spiralé, deux lingots (plat et carré)
-                        et environ 325 monnaies gauloises en or. Une partie fut rapidement
-                        dispersée ou refondue. Bordeaux a pu acquérir un lingot et 26 statères
-                        ou quart de statères, parfois incomplètement frappés. Les monnaies les
-                        plus récentes datent de 90-80 av. J.-C.</p>
-                </div>
-            </div>
-            <div class="container flex">
-                <div class="description2">
-                    <a href="#">
-                        <h2>Le trésor de la Garonne</h2>
-                    </a>
-                    <p>Les sesterces de ce trésor, datés des règnes de Claude (41-54 apr. J.-C.)
-                        à Antonin le Pieux (138-161 apr. J.-C.), servaient à diffuser l’image
-                        et la puissance de Rome à travers l’Empire. Les portraits impériaux sur
-                        l’avers renforçaient l’unité des provinces autour de l’empereur, tandis
-                        que les revers véhiculaient des messages idéologiques exaltant les vertus
-                        du régime. D'abord frappées à Rome sous l’autorité du Sénat, les monnaies
-                        produites à Lyon étaient sous tutelle impériale. Ces pièces circulaient
-                        jusqu'aux confins de l’Empire, y compris à Burdigala.</p>
-                </div>
-                <div class="shapes2">
-                    <div class="carre_jaune"></div>
-                    <img src="/images/Page_accueil/tresor_garonne.png" alt="trésor de la Garonne"
-                        class="overlay-image ">
-                </div>
-            </div>
-            <div class="container flex">
-                <div class="shapes">
-                    <div class="carre_jaune"></div>
-                    <img src="/images/Page_accueil/autel_tutelle.png" alt="autel à la tutelle de bdx"
-                        class="overlay-image ">
-                </div>
-                <div>
-                    <a href="#">
-                        <h2>Autel à la Tutelle de Bordeaux</h2>
-                    </a>
-                    <p class="description">Cet autel est le premier à mentionner les Bituriges Vivisques, habitants
-                        romains de Bordeaux, alors l’une des 21 cités d’Aquitaine reconnues par
-                        Auguste. Dédicacé à l’empereur et au Génie de la cité, il devint célèbre
-                        dès 1534 pour son inscription et son décor exceptionnel : une couronne de
-                        chêne et des ustensiles à libation (aiguière et patère). Placé sur le
-                        forum, il servait aux cérémonies annuelles qui renforçaient la cohésion
-                        religieuse de la cité. Pierre angulaire de l’histoire de Bordeaux, il fut
-                        exposé à l’hôtel de ville au XVIe siècle, avant de devenir une pièce
-                        maîtresse du musée d’Aquitaine.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="offres">
-            <a href="offres.html" class="Titre">
-                <h1>OFFRES</h1>
-            </a>
-            <p1>“L'entrée au musée se fait sans réservation,
-                y compris pour les visites commentées.” 
-            </p1>
-        </section>
-        <div class="tarifcontainer">
-            <div class="bidul">
-                <h1>8€</h1>
-                <p1>TARIF</p1>
-                <p2>PLEIN</p2>
-                <button>ACHETER</button>
-            </div>
-            <div class="bidul">
-                <h1>4,50€</h1>
-                <p1>TARIF</p1>
-                <p2>RÉDUIT</p2>
-                <button>ACHETER</button>
-            </div>
-            <div class="bidul">
-                <h1>2€</h1>
-                <p1>TARIF</p1>
-                <p2>ÉTUDIANT</p2>
-                <button>ACHETER</button>
+                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="next" onclick="moveSlide(1)">&#10095;</button>
             </div>
         </div>
 
-        <section class="boutique">
-            <div>
-                <a href="boutique.html" class="Titre">
-                    <h1>BOUTIQUE</h1>
-                </a>
-                <img class="banniere-exposition" src="/images/Page_accueil/boutique.png" alt="autel à la tutelle de bdx">
-                <button>EN SAVOIR PLUS</button>
-            </div>
-        </section>
-    </main>
+        <!-- Sous-box texte dynamique avec titre -->
+        <div class="text-box" id="text-box">
+            <div class="exhibit-title" id="exhibit-title"></div>
+            <div class="exhibit-description" id="exhibit-description"></div>
+        </div>
 
-    <footer>
-        <div class="footer-container">
-        <div class="footer-section about">
-            <h2>Musée d'Aquitaine</h2>
-            <p> Le Musée d'Aquitaine présente l'histoire de Bordeaux et de sa région, de la préhistoire à nos jours.
-            </p>
-            <div class="social-icons">
-                <a href="https://www.youtube.com/@museedaquitainebordeaux/featured"  target="_blank"><img src="/images/Expositions/ytb.svg" alt="YouTube"></a>
-                <a href="https://x.com/MuseeAquitaine"><img src="/images/Expositions/x.svg" target="_blank" alt="X"></a>
-                <a href="https://www.facebook.com/musee.aquitaine"><img src="/images/Expositions/facebook.svg" target="_blank" alt="Facebook"></a>
-                <a href="https://www.instagram.com/musee_aquitaine/"><img src="/images/Expositions/instagram.svg" target="_blank" alt="Instagram"></a>
-          </div>
-  
-  
-  
-            <a href="#"
-              ><img class="redlogo" src="images/icons/logo_rouge.svg" alt=""
-            /></a>
-          </div>
-          
-          <div class="footer-section contact">
-            <h2>Contact</h2>
-            <p>20 Cours Pasteur, 33000 Bordeaux, France</p>
-            <p>Téléphone: <a href="tel:+33556015100">+33 5 56 01 51 00</a></p>
-            <p>
-              <a href="mailto:info@musee-aquitaine.fr">Envoyez-nous un mail</a>
-            </p>
-          </div>
+        <!-- Bouton Voir plus avec lien cliquable -->
+        <a href="expositions.html" class="see-more-btn">Voir plus d'expositions</a> <!-- Utilisation de <a> pour rendre le bouton cliquable -->
+    </div>
+
+    <!-- Titre "NOS COLLECTIONS" -->
+    <div class="collections-title">NOS COLLECTIONS</div>
+
+    <!-- Section des collections -->
+    <div class="collection-row">
+        <!-- Première box de collection (enveloppe en <a>) -->
+        <a href="maintenance.html" class="collection-box">
+            <div class="collection-image">
+                <img src="images/Accueil/collec1.jpg" alt="Collection 1">
+            </div>
+            <div class="collection-text">
+                <div class="collection-title">LE TRÉSOR GAULOIS DU TAYAC</div>
+            </div>
+        </a>
+
+        <!-- Deuxième box de collection (enveloppe en <a>) -->
+        <a href="maintenance.html" class="collection-box">
+            <div class="collection-image">
+                <img src="images/Accueil/collec2.jpg" alt="Collection 2">
+            </div>
+            <div class="collection-text">
+                <div class="collection-title">LE TRÉSOR DE LA GARONNE</div>
+            </div>
+        </a>
+
+        <!-- Troisième box de collection (enveloppe en <a>) -->
+        <a href="maintenance.html" class="collection-box">
+            <div class="collection-image">
+                <img src="images/Accueil/collec3.jpg" alt="Collection 3">
+            </div>
+            <div class="collection-text">
+                <div class="collection-title">14 HACHES DE BRONZE</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="button-container">
+        <!-- Bouton Voir plus de collections avec lien -->
+        <a href="maintenance.html" class="view-more-btn">Voir plus de collections</a> <!-- Utilisation de <a> pour rendre le bouton cliquable -->
+    </div>
+
+    <!-- Titre "TARIFS" -->
+    <div class="tarifs-title">NOS TARIFS</div>
+    <script src="script.js"></script>
+
+    <div class="tarifs-container">
+        <!-- Box Tarif Plein -->
+        <div class="tarif-box">
+            <div class="tarif-title">8€</div>
+            <div class="tarif-description">Tarif Plein</div>         
         </div>
         
-        <div class="footer-bottom">
-          <p>&copy; 2024 Musée d'Aquitaine. Tous droits réservés.</p>
+    
+        <!-- Box Tarif Réduit -->
+        <div class="tarif-box">
+            <div class="tarif-title">4,50€</div>
+            <div class="tarif-description">Tarif Réduit</div>
         </div>
-      </footer>
-      <script src="script.js"></script>
+    
+        <!-- Box Tarif Etudiant -->
+        <div class="tarif-box">
+            <div class="tarif-title">2€</div>
+            <div class="tarif-description">Tarif Etudiant</div>
+        </div>
+    </div>
+    
+</div>
 </body>
+<footer>
+    <div class="footer-container">
+    <div class="footer-section about">
+        <h2>Musée d'Aquitaine</h2>
+        <p> Le Musée d'Aquitaine présente l'histoire de Bordeaux et de sa région, de la préhistoire à nos jours.
+        </p>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@museedaquitainebordeaux/featured"  target="_blank"><img src="/images/Expositions/ytb.svg" alt="YouTube"></a>
+            <a href="https://x.com/MuseeAquitaine"><img src="/images/Expositions/x.svg" target="_blank" alt="X"></a>
+            <a href="https://www.facebook.com/musee.aquitaine"><img src="/images/Expositions/facebook.svg" target="_blank" alt="Facebook"></a>
+            <a href="https://www.instagram.com/musee_aquitaine/"><img src="/images/Expositions/instagram.svg" target="_blank" alt="Instagram"></a>
+      </div>
 
-</html>
 
 
-<footer></footer>
-
-
-</body>
-
+        <a href="#"
+          ><img class="redlogo" src="images/icons/logo_rouge.svg" alt=""
+        /></a>
+      </div>
+      
+      <div class="footer-section contact">
+        <h2>Contact</h2>
+        <p>20 Cours Pasteur, 33000 Bordeaux, France</p>
+        <p>Téléphone: <a href="tel:+33556015100">+33 5 56 01 51 00</a></p>
+        <p>
+          <a href="mailto:info@musee-aquitaine.fr">Envoyez-nous un mail</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2024 Musée d'Aquitaine. Tous droits réservés.</p>
+    </div>
+  </footer>
 </html>
