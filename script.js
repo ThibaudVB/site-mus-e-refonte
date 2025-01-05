@@ -70,3 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Charge le texte de la première exposition
     updateTextWithAnimation();
 });
+
+darkmode.addEventListener("click", () => 
+    document.body.classList.toggle("dark")
+)

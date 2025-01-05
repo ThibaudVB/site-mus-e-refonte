@@ -60,6 +60,69 @@ body {
     margin-top: 50px;
 }
 
+/*Mode sombre button */
+.modesombre{
+    top: 20px;
+    right: 20px;
+}
+
+.btnsombre-encadre{
+    background-color: rgb(182, 182, 182) ;
+    height: 18px;
+    width: 45px;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    transform: scale(1.2);
+    box-shadow: 2px 1px 1px #333;
+}
+
+.circle-btnsombre{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    top: 2px;
+    left: 4px;
+    position: absolute;
+    transition: transform 0.4s cubic-bezier(0.5, -0, 0.35, 1);
+}
+
+.button-sombre{
+    display: none;
+}
+
+.button-sombre:checked + .btnsombre-encadre .circle-btnsombre{
+    transform: translateX(30px);
+}
+
+.dark{
+    background: #333;
+}
+
+.dark nav a{
+    color: white;
+}
+
+.dark .main-title{
+    color: white;
+}
+
+.dark .collections-title{
+    color: white;
+}
+
+.dark .burger-menu{
+    color: white;
+}
+
+.dark .tarifs-title{
+    color: white;
+}
+
 /* Bouton Voir plus */
 .see-more-btn, .view-more-btn {
     margin-top: 30px;

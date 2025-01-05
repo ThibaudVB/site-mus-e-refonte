@@ -140,7 +140,9 @@ nav a:hover::after {
 
 
     .overlay {
-        display: block; /* Affiche l'overlay */
+        display: flex; /* Affiche l'overlay */
+        max-height: 27px;
+        max-width: 44px;
     }
 }
 
